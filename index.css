@@ -154,12 +154,13 @@ header {
 }
 .card {
   width: 400px;
-  border-left: 10px solid rgb(42, 214, 42);
+  border-left: 15px solid rgb(42, 214, 42);
   background-color: transparent;
   color: black;
-  text-align: center;
+  text-align: left;
   box-shadow: 0 4px 8px 0 rgba(175, 172, 172, 0.2),
     0 6px 20px 0 rgba(192, 187, 187, 0.19);
+  padding: 10px;
 }
 
 /* Donation section */
@@ -187,6 +188,7 @@ header {
 .donation-left {
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex: 1;
   gap: 20px;
 }
@@ -268,6 +270,7 @@ header {
   flex: 1;
   align-items: center;
   font-size: 20px;
+  gap: 5px;
 }
 
 .info .green {
